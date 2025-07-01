@@ -5,7 +5,7 @@ const produtos = [
       'Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno',
     preco: 'R$29,99 - R$83,99',
     imagens: ['imagens/meiacalca.png'],
-    videos: ['videos/meiacalca.mp4'],
+    videos: ['videos/meiacalca.mp4'], // Se não tiver vídeo, deixe array vazio []
     link: 'https://s.shopee.com.br/8KeArZVO6l?share_channel_code=3',
   },
   {
@@ -39,15 +39,18 @@ const produtos = [
 
 function montarCatalogo() {
   const container = $('#catalogo');
+  container.empty(); // Limpa antes de montar, para evitar duplicados
+
   produtos.forEach((produto, index) => {
-    container.append(`
+    const produtoHtml = `
       <div class="produto" data-id="${index}">
         <img src="${produto.imagens[0]}" alt="${produto.titulo}" />
         <h3>${produto.titulo}</h3>
         <p>${produto.descricao}</p>
         <p><strong>${produto.preco}</strong></p>
       </div>
-    `);
+    `;
+    container.append(produtoHtml);
   });
 }
 
@@ -62,29 +65,27 @@ function abrirModal(id) {
 
   const carrossel = $('.carrossel');
 
-  // Remove slick se já estiver inicializado
   if (carrossel.hasClass('slick-initialized')) {
     carrossel.slick('unslick');
   }
 
-  // Limpa o conteúdo do carrossel
   carrossel.html('');
 
-  // Adiciona imagens
   p.imagens.forEach((src) => {
-    carrossel.append(
-      `<div><img src="${src}" alt="${p.titulo}" /></div>`
-    );
+    carrossel.append(`<div><img src="${src}" alt="${p.titulo}" /></div>`);
   });
 
-  // Adiciona vídeos
   p.videos.forEach((src) => {
-    carrossel.append(
-      `<div><video controls><source src="${src}" type="video/mp4" /></video></div>`
-    );
+    carrossel.append(`
+      <div>
+        <video controls preload="metadata">
+          <source src="${src}" type="video/mp4" />
+          Seu navegador não suporta o elemento de vídeo.
+        </video>
+      </div>
+    `);
   });
 
-  // Inicializa o carrossel
   carrossel.slick({
     dots: true,
     infinite: true,
