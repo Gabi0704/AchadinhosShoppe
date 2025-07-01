@@ -48,7 +48,7 @@ const produtos = [
   EVITE ACIDENTES, MANTENHA A VISIBILIDADE DO RETROVISOR ENTRE 95-99%, TAMBÉM PROTEGE DE REFLEXOS.`,
     preco: 'R$ 13,39',
     imagens: ['imagens/retrovisor.png','imagens/retrovisor/retrovisor1.png','imagens/retrovisor/retrovisor2.png','imagens/retrovisor/retrovisor3.png','imagens/retrovisor/retrovisor4.png','imagens/retrovisor/retrovisor5.png'],
-    videos: ['videos/retrovisor/retrovisor.mp4],
+    videos: ['videos/retrovisor/retrovisor.mp4'],
     link: 'https://s.shopee.com.br/1VnqjEY4x7?share_channel_code=3',
   },
   {
