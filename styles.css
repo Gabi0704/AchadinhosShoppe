@@ -120,29 +120,41 @@ footer {
   align-items: center;
 }
 
-/* Modal conteúdo quadrado centralizado */
+/* Modal conteúdo quadrado e responsivo */
 .modal-content {
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 600px;
   width: 90vw;
-  height: 90vw;
-  max-height: 500px;
+  max-height: 90vh;
   position: relative;
-  overflow: hidden;
+  overflow-y: auto; /* scroll só se ultrapassar */
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 /* Carrossel dentro do modal */
 .carrossel {
-  flex: 1 1 auto;
+  width: 100%;
+  max-height: 70vh;
   margin-bottom: 15px;
-  overflow: hidden;
+  flex-shrink: 0;
 }
 
+.carrossel img,
+.carrossel video {
+  width: 70%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Botão fechar */
 .close {
   position: absolute;
   top: 10px;
