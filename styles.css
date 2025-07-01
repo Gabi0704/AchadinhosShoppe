@@ -172,6 +172,19 @@ footer {
   padding: 20px;
   background-color: #ffe0d3;
 }
+/* Força 2 colunas em telas pequenas */
+@media (max-width: 767px) {
+  .catalogo {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Força 4 colunas em telas grandes */
+@media (min-width: 768px) {
+  .catalogo {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
 
 .redes-sociais a {
   margin
