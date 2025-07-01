@@ -2,12 +2,23 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Achadinhos da Gabi</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
-  <link rel="stylesheet" href="styles.css"/>
+
+  <!-- Link para CSS externo -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Slick CSS -->
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+  />
 </head>
 <body>
 
@@ -22,31 +33,48 @@
   </section>
 
   <section class="descricao">
-    <p>Bem-vindo à nossa loja! Aqui você encontra uma seleção especial de produtos variados, com qualidade e preço justo. Navegue, escolha e clique para saber mais. Boas compras!</p>
+    <p>
+      Bem-vindo à nossa loja! Aqui você encontra uma seleção especial de
+      produtos variados, com qualidade e preço justo. Navegue, escolha e
+      clique para comprar. Boas compras!
+    </p>
   </section>
 
-  <section class="catalogo" id="catalogo"></section>
-
-  <div id="modal" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <div class="carrossel slider"></div>
-      <h2 id="modal-title"></h2>
-      <p id="modal-desc"></p>
-      <p><strong id="modal-price"></strong></p>
-      <button id="modal-link" target="_blank">Ver Produto</button>
-    </div>
-  </div>
+  <section id="catalogo" class="catalogo"></section>
 
   <footer>
     <div class="redes-sociais">
-      <a href="https://www.instagram.com/achad.inhosdashoppeoficial/" target="_blank">Instagram</a>
+      <a
+        href="https://www.instagram.com/achad.inhosdashoppeoficial/"
+        target="_blank"
+        >Instagram</a
+      >
     </div>
     <p>Boas compras e volte sempre!</p>
   </footer>
 
+  <!-- Modal -->
+  <div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modal-title"></h2>
+      <div class="carrossel"></div>
+      <p id="modal-desc"></p>
+      <p id="modal-price"></p>
+      <button id="modal-link">Ver Produto</button>
+    </div>
+  </div>
+
+  <!-- JQuery -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+  <!-- Slick JS -->
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+
+  <!-- Seu script -->
   <script src="script.js"></script>
 </body>
 </html>
