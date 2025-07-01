@@ -1,89 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Achadinhos da Gabi</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #fff8f2;
-      color: #333;
-    }
-    header {
-      background-image: url('images/cabecalho.jpg');
-      background-size: cover;
-      background-position: center;
-      height: 250px;
-    }
-    .container-info {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-      padding: 40px;
-      background-color: #fff;
-    }
-    .container-info .textos {
-      flex: 1 1 300px;
-      margin-bottom: 20px;
-    }
-    .container-info img {
-      max-width: 250px;
-      width: 100%;
-      border-radius: 8px;
-    }
-    .descricao {
-      padding: 0 40px 40px 40px;
-      font-size: 1.1em;
-      line-height: 1.6;
-    }
-    .catalogo {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr); /* força 2 colunas fixas */
-      gap: 20px;
-      padding: 20px;
-    }
-    .produto {
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      text-align: center;
-      padding: 15px;
-    }
-    .produto img {
-      max-width: 50%;
-      border-radius: 6px;
-    }
-    .produto h3 {
-      font-size: 1.1em;
-      margin: 10px 0 5px;
-    }
-    .produto p {
-      margin: 5px 0;
-    }
-    .produto a {
-      text-decoration: none;
-      color: #fff;
-      background-color: #ff5722;
-      padding: 8px 16px;
-      border-radius: 4px;
-      display: inline-block;
-      margin-top: 10px;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #ffe0d3;
-    }
-    .redes-sociais a {
-      margin: 0 10px;
-      text-decoration: none;
-      color: #ff5722;
-      font-weight: bold;
-    }
-  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
@@ -94,43 +18,25 @@
       <h1>Achadinhos da Gabi</h1>
       <h2>Seu achado favorito está aqui!</h2>
     </div>
-    <img src="imagens/avatar.png" alt="Avatar da Loja">
+    <img src="imagens/avatar.png" alt="Avatar da Loja" />
   </section>
 
   <section class="descricao">
-    <p>Bem-vindo à nossa loja! Aqui você encontra uma seleção especial de produtos variados, com qualidade e preço justo. Navegue, escolha e clique para ser comprar. Boas compras!</p>
+    <p>Bem-vindo à nossa loja! Aqui você encontra uma seleção especial de produtos variados, com qualidade e preço justo. Navegue, escolha e clique para saber mais. Boas compras!</p>
   </section>
 
-  <section class="catalogo">
-    <div class="produto">
-      <img src="imagens/meiacalca.png" alt="Meia-Calça Térmica">
-      <h3>Meia-calça Termica</h3>
-      <p>Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno</p>
-      <p><strong>R$29,99 - R$83,99</strong></p>
-      <a href="https://s.shopee.com.br/8KeArZVO6l?share_channel_code=3" target="_blank">Ver Produto</a>
+  <section class="catalogo" id="catalogo"></section>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="carrossel slider"></div>
+      <h2 id="modal-title"></h2>
+      <p id="modal-desc"></p>
+      <p><strong id="modal-price"></strong></p>
+      <button id="modal-link" target="_blank">Ver Produto</button>
     </div>
-    <div class="produto">
-      <img src="imagens/retrovisor.png" alt="Película Protetora Para Carro">
-      <h3>2 UNIDADES (1 PAR) Película Protetora Para Carro / Anti-Embaçamento / Retrovisor</h3>
-      <p>Película à prova d'água que mantém seu retrovisor limpo, nítido e seguro na chuva.</p>
-      <p><strong>R$ 13,39</strong></p>
-      <a href=" https://s.shopee.com.br/1VnqjEY4x7?share_channel_code=3" target="_blank">Ver Produto</a>
-    </div>
-    <div class="produto">
-      <img src="imagens/stitch.png" alt="Stitch">
-      <h3>Garrafa Térmica Lilo e Stitch</h3>
-      <p>Dê uma olhada em Garrafa Térmica Lilo e Stitch 420ml Água Café Chá Medidor de Temperatura</p>
-      <p><strong>R$ 46,74</strong></p>
-      <a href="https://s.shopee.com.br/8KeArZVO6l?share_channel_code=3" target="_blank">Ver Produto</a>
-    </div>
-    <div class="produto">
-      <img src="imagens/panelas.png" alt="panelas">
-      <h3>Panelas antiaderentes que não grudam</h3>
-      <p>Jogo De Panelas Antiaderente 9 Peças Kit Conjunto Teflon Tampa de Vidro Várias Cores Durável Moderna</p>
-      <p><strong>R$ 184,90</strong></p>
-      <a href="https://s.shopee.com.br/2fzo5SXmLV" target="_blank">Ver Produto</a>
-    </div>
-  </section>
+  </div>
 
   <footer>
     <div class="redes-sociais">
@@ -139,5 +45,8 @@
     <p>Boas compras e volte sempre!</p>
   </footer>
 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
