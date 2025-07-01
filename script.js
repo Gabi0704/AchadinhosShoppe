@@ -33,7 +33,7 @@ const produtos = [
   ENVIO EXPRESSO – Receba em até 24h após a compra!
 👉 Compre agora e aproveite o inverno com estilo e conforto!`,
     preco: 'R$29,99 - R$83,99',
-    imagens: ['imagens/meiacalca/meiacalca.png','imagens/meiacalca/meiacalca1.png','imagens/meiacalca/meiacalca2.png','imagens/meiacalca/meiacalca3.png','imagens/meiacalca/meiacalca4.png','imagens/meiacalca/meiacalca5.png','imagens/meiacalca/meiacalca6.png','imagens/meiacalca/meiacalca7.png','imagens/meiacalca/meiacalca8.png','imagens/meiacalca/meiacalca9.png'],
+    imagens: ['imagens/meiacalca/meiacalca.png','imagens/meiacalca/meiacalca1.png','imagens/meiacalca/meiacalca2.png','imagens/meiacalca/meiacalca4.png','imagens/meiacalca/meiacalca5.png','imagens/meiacalca/meiacalca6.png','imagens/meiacalca/meiacalca7.png','imagens/meiacalca/meiacalca8.png','imagens/meiacalca/meiacalca9.png'],
     videos: [],
     link: 'https://s.shopee.com.br/7fOU5jGiU5',
   },
