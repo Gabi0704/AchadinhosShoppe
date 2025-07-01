@@ -22,7 +22,7 @@ const produtos = [
     descricao:
       'Garrafa Térmica Lilo e Stitch 420ml Água Café Chá Medidor de Temperatura',
     preco: 'R$ 46,74',
-    imagens: ['imagens/stitch.png','imagens/stitch1.png','imagens/stitch2.png','imagens/stitch3.png','imagens/stitch4.png','imagens/stitch5.png','imagens/stitch6.png','imagens/stitch7.png','imagens/stitch8.png']
+    imagens: ['imagens/stitch.png','imagens/stitch1.png','imagens/stitch2.png','imagens/stitch3.png','imagens/stitch4.png','imagens/stitch5.png','imagens/stitch6.png','imagens/stitch7.png','imagens/stitch8.png'],
     videos: ['videos/stitch video.mp4'],
     link: 'https://s.shopee.com.br/8KeArZVO6l?share_channel_code=3',
   },
