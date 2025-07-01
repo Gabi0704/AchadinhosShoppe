@@ -40,21 +40,21 @@ header {
 
 .catalogo {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 colunas no desktop */
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 20px;
 }
 
 @media (max-width: 768px) {
   .catalogo {
-    grid-template-columns: repeat(2, 1fr); /* 2 colunas no mobile */
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 .produto {
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
   padding: 15px;
   cursor: pointer;
@@ -104,7 +104,7 @@ footer {
   font-weight: bold;
 }
 
-/* Modal fundo */
+/* Modal */
 .modal {
   display: none;
   position: fixed;
@@ -113,14 +113,14 @@ footer {
   top: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0, 0, 0, 0.7);
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Modal conteúdo quadrado e responsivo */
+/* Modal conteúdo responsivo */
 .modal-content {
   background-color: #fff;
   padding: 20px;
@@ -129,13 +129,13 @@ footer {
   width: 90vw;
   max-height: 90vh;
   position: relative;
-  overflow-y: auto; /* scroll só se ultrapassar */
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
 }
 
-/* Carrossel dentro do modal */
+/* Carrossel no modal */
 .carrossel {
   width: 100%;
   max-height: 70vh;
@@ -170,7 +170,7 @@ footer {
   color: #ff5722;
 }
 
-/* Texto do modal */
+/* Texto modal */
 #modal-title {
   margin: 0 0 10px 0;
 }
