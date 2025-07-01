@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Loja na Shopee</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff8f2;
+      color: #333;
+    }
+    header {
+      background-image: url('images/cabecalho.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 250px;
+    }
+    .container-info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px;
+      background-color: #fff;
+    }
+    .container-info .textos {
+      flex: 1 1 300px;
+      margin-bottom: 20px;
+    }
+    .container-info img {
+      max-width: 250px;
+      width: 100%;
+      border-radius: 8px;
+    }
+    .descricao {
+      padding: 0 40px 40px 40px;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+    .catalogo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .produto {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 15px;
+    }
+    .produto img {
+      max-width: 100%;
+      border-radius: 6px;
+    }
+    .produto h3 {
+      font-size: 1.1em;
+      margin: 10px 0 5px;
+    }
+    .produto p {
+      margin: 5px 0;
+    }
+    .produto a {
+      text-decoration: none;
+      color: #fff;
+      background-color: #ff5722;
+      padding: 8px 16px;
+      border-radius: 4px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ffe0d3;
+    }
+    .redes-sociais a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #ff5722;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header></header>
+
+  <section class="container-info">
+    <div class="textos">
+      <h1>Minha Lojinha</h1>
+      <h2>Seu achado favorito está aqui!</h2>
+    </div>
+    <img src="images/avatar.png" alt="Avatar da Loja">
+  </section>
+
+  <section class="descricao">
+    <p>Bem-vindo à nossa loja! Aqui você encontra uma seleção especial de produtos variados, com qualidade e preço justo. Navegue, escolha e clique para ser redirecionado diretamente à nossa vitrine na Shopee. Boas compras!</p>
+  </section>
+
+  <section class="catalogo">
+    <div class="produto">
+      <img src="images/produto1.jpg" alt="Produto 1">
+      <h3>Produto 1</h3>
+      <p>Descrição breve do produto.</p>
+      <p><strong>R$ 29,90</strong></p>
+      <a href="https://shopee.com.br/produto1" target="_blank">Ver Produto</a>
+    </div>
+    <div class="produto">
+      <img src="images/produto2.jpg" alt="Produto 2">
+      <h3>Produto 2</h3>
+      <p>Descrição breve do produto.</p>
+      <p><strong>R$ 49,90</strong></p>
+      <a href="https://shopee.com.br/produto2" target="_blank">Ver Produto</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="redes-sociais">
+      <a href="https://instagram.com/sualoja" target="_blank">Instagram</a>
+      <a href="https://facebook.com/sualoja" target="_blank">Facebook</a>
+      <a href="https://wa.me/seunumerowhatsapp" target="_blank">WhatsApp</a>
+    </div>
+    <p>Boas compras e volte sempre!</p>
+  </footer>
+
+</body>
+</html>
