@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff8f2;
+  color: #333;
+}
+
+header {
+  background-image: url('images/cabecalho.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.container-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.container-info .textos {
+  flex: 1 1 300px;
+  margin-bottom: 20px;
+}
+
+.container-info img {
+  max-width: 250px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.descricao {
+  padding: 0 40px 40px 40px;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .catalogo {
+    grid-template-columns: 1fr;
+  }
+}
+
+.produto {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.produto:hover {
+  transform: scale(1.05);
+}
+
+.produto img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.produto h3 {
+  font-size: 1.1em;
+  margin: 10px 0 5px;
+}
+
+.produto p {
+  margin: 5px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffe0d3;
+}
+
+.redes-sociais a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ff5722;
+  font-weight: bold;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 5% auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  position: relative;
+}
+
+.close {
+  color: #aaa;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.carrossel {
+  margin-bottom: 20px;
+}
+
+.modal button {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
