@@ -102,7 +102,8 @@ function montarCatalogo() {
   produtos.forEach((produto, index) => {
     container.append(`
       <div class="produto" data-id="${index}">
-        <img src="${produto.imagens[0]}" alt="${produto.titulo}" />
+        <!-- Usar lazy loading no catálogo para imagens -->
+        <img src="${produto.imagens[0]}" alt="${produto.titulo}" loading="lazy" />
         <h3>${produto.titulo}</h3>
         <p>${produto.descricaoCurta}</p>
         <p><strong>${produto.preco}</strong></p>
@@ -121,44 +122,56 @@ function abrirModal(id) {
 
   const carrossel = $('.carrossel');
 
-  // Remove carrossel anterior, se houver
+  // Se slick já inicializado, destrói para reiniciar
   if (carrossel.hasClass('slick-initialized')) {
     carrossel.slick('unslick');
   }
+
+  // Limpa o conteúdo do carrossel antes de adicionar
   carrossel.html('');
 
-  // Adiciona imagens e vídeos
+  // Adiciona imagens ao carrossel
   p.imagens.forEach(src => {
-    carrossel.append(`<div><img src="${src}" alt="${p.titulo}" /></div>`);
-  });
-  p.videos.forEach(src => {
-    carrossel.append(`<div><video controls preload="metadata"><source src="${src}" type="video/mp4" /></video></div>`);
+    carrossel.append(`<div><img src="${src}" alt="${p.titulo}" loading="lazy" /></div>`);
   });
 
-  // Inicia slick
+  // Adiciona vídeos ao carrossel
+  p.videos.forEach(src => {
+    carrossel.append(`
+      <div>
+        <video controls preload="metadata" style="max-width: 100%; height: auto;">
+          <source src="${src}" type="video/mp4" />
+          Seu navegador não suporta vídeo HTML5.
+        </video>
+      </div>
+    `);
+  });
+
+  // Inicializa o slick (plugin de carrossel)
   carrossel.slick({
     dots: true,
     infinite: true,
     speed: 300,
     slidesToShow: 1,
-    adaptiveHeight: true
+    adaptiveHeight: true,
   });
 
+  // Exibe o modal
   $('#modal').fadeIn();
 }
 
 $(document).ready(() => {
   montarCatalogo();
 
-  // Clique em um card para abrir o modal
+  // Ao clicar em um card, abrir o modal com os detalhes
   $(document).on('click', '.produto', function () {
     abrirModal($(this).data('id'));
   });
 
-  // Fecha o modal
+  // Fecha o modal ao clicar no botão de fechar
   $('.close').click(() => $('#modal').fadeOut());
 
-  // Clica fora do conteúdo para fechar
+  // Fecha o modal ao clicar fora do conteúdo
   $(window).click(e => {
     if ($(e.target).is('#modal')) {
       $('#modal').fadeOut();
