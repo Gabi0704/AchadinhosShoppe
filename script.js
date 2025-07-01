@@ -88,8 +88,8 @@ Tampa com parede dupla.
     GARANTIA: 3 meses contra defeito de fabricação e não cobre má utilização.
     EMBALAGEM: Os produtos vêm numa Caixa Parda Reciclada. Nós colaboramos com o meio ambiente utilizando caixas recicladas para transporte.`,
     preco: 'R$ 184,90',
-    imagens: ['imagens/panelas/panelas.png','imagens/panelas/panelas1.png','imagens/panelas/panelas2.png','imagens/panelas/panelas3.png','imagens/panelas/panelas4.png','imagens/panelas/panelas5.png'],
-    videos: ['videos/panelas/panelas.mp4'],
+    imagens: ['imagens/panela/panela.png','imagens/panela/panela1.png','imagens/panela/panela2.png','imagens/panela/panela3.png','imagens/panela/panela4.png','imagens/panelas/panela5.png'],
+    videos: ['videos/panela/panela.mp4'],
     link: 'https://s.shopee.com.br/2fzo5SXmLV',
   },
 ];
