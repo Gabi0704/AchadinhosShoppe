@@ -1,1 +1,56 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Enviar Sugestão</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #fff8f2;
+      padding: 40px;
+    }
+    form {
+      background: #fff;
+      padding: 20px;
+      max-width: 500px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+    input, textarea, button {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1em;
+    }
+    button {
+      background-color: #ff5722;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #e64a19;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 style="text-align:center; color:#d94f70;">Deixe sua sugestão 💌</h2>
+
+  <form action="https://formsubmit.co/leandroalvescarriel@gmail.com" method="POST">
+    <input type="text" name="nome" placeholder="Seu nome" required>
+    <input type="email" name="email" placeholder="Seu e-mail (opcional)">
+    <textarea name="sugestao" rows="6" placeholder="Digite sua sugestão aqui..." required></textarea>
+    <input type="text" name="link_anuncio" id="link_anuncio" placeholder="Digite o link do seu achadinho (opcional)">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://gabi0704.github.io/AchadinhosShoppe/obrigado.html">
+    <button type="submit">Enviar sugestão</button>
+  </form>
+
+</body>
+</html>
