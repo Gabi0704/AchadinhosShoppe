@@ -20,7 +20,16 @@ const produtos = [
   {
     titulo: 'Garrafa Térmica Lilo e Stitch',
     descricao:
-      'Garrafa Térmica Lilo e Stitch 420ml Água Café Chá Medidor de Temperatura',
+      `✨Garrafa Térmica com dupla parede de isolamento capaz de manter sua bebida gelada por até 4 horas ou quente por até 2 horas. Possui visor de Led na tampa para indicar a temperatura da bebida dentro da garrafa.
+✨Produto feito em Aço Inox
+✨Livre de BPA
+✨Garrafa com parede dupla e isolamento a vácuo.
+Tampa com parede dupla.
+✨Portátil e não vaza.
+❤️Material:
+✨Aço inox
+✔️Com termômetro digital
+✔️Por favor enviar o nome a ser colocado assim que finalizar a compra, caso contrario seguira sem o mesmo. Agradecemos a compreensão.`,
     preco: 'R$ 46,74',
     imagens: ['imagens/stitch.png','imagens/stitch1.png','imagens/stitch2.png','imagens/stitch3.png','imagens/stitch4.png','imagens/stitch5.png','imagens/stitch6.png','imagens/stitch7.png','imagens/stitch8.png'],
     videos: ['videos/stitch video.mp4'],
