@@ -53,22 +53,50 @@ function abrirModal(id) {
   $('#modal-desc').text(p.descricao);
   $('#modal-price').text(p.preco);
   $('#modal-link').attr('onclick', `window.open('${p.link}', '_blank')`);
+
   const carrossel = $('.carrossel');
-  carrossel.html('');
-  p.imagens.forEach(src => carrossel.append(`<div><img src="${src}" style="width:100%; border-radius:8px;"></div>`));
-  p.videos.forEach(src => carrossel.append(`<div><video controls src="${src}" style="width:100%; border-radius:8px;"></video></div>`));
-  $('.slider').slick('unslick');
-  $('.slider').slick({ dots: true, infinite: true, speed: 300, slidesToShow: 1, adaptiveHeight: true });
+  carrossel.html(''); // limpa o conteúdo anterior
+
+  // adiciona imagens
+  p.imagens.forEach(src => {
+    carrossel.append(`<div><img src="${src}" style="width:100%; border-radius:8px;"></div>`);
+  });
+
+  // adiciona vídeos
+  p.videos.forEach(src => {
+    carrossel.append(`<div><video controls style="width:100%; border-radius:8px;"><source src="${src}" type="video/mp4"></video></div>`);
+  });
+
+  // remove carrossel anterior se existir
+  if (carrossel.hasClass('slick-initialized')) {
+    carrossel.slick('unslick');
+  }
+
+  // inicia o carrossel
+  carrossel.slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    adaptiveHeight: true
+  });
+
   $('#modal').fadeIn();
 }
 
 $(document).ready(function () {
   montarCatalogo();
 
+  // clique em produto → abre modal
   $(document).on('click', '.produto', function () {
     abrirModal($(this).data('id'));
   });
 
+  // fechar modal
   $('.close').click(() => $('#modal').fadeOut());
-  $(window).click(e => { if ($(e.target).is('#modal')) $('#modal').fadeOut(); });
+  $(window).click(e => {
+    if ($(e.target).is('#modal')) {
+      $('#modal').fadeOut();
+    }
+  });
 });
