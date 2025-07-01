@@ -55,24 +55,26 @@ function abrirModal(id) {
   $('#modal-link').attr('onclick', `window.open('${p.link}', '_blank')`);
 
   const carrossel = $('.carrossel');
-  carrossel.html(''); // limpa o conteúdo anterior
 
-  // adiciona imagens
-  p.imagens.forEach(src => {
-    carrossel.append(`<div><img src="${src}" style="width:100%; border-radius:8px;"></div>`);
-  });
-
-  // adiciona vídeos
-  p.videos.forEach(src => {
-    carrossel.append(`<div><video controls style="width:100%; border-radius:8px;"><source src="${src}" type="video/mp4"></video></div>`);
-  });
-
-  // remove carrossel anterior se existir
+  // Remove slick se já estiver inicializado
   if (carrossel.hasClass('slick-initialized')) {
     carrossel.slick('unslick');
   }
 
-  // inicia o carrossel
+  // Limpa o conteúdo do carrossel
+  carrossel.html('');
+
+  // Adiciona imagens
+  p.imagens.forEach(src => {
+    carrossel.append(`<div><img src="${src}" style="width:100%; border-radius:8px;"></div>`);
+  });
+
+  // Adiciona vídeos
+  p.videos.forEach(src => {
+    carrossel.append(`<div><video controls style="width:100%; border-radius:8px;"><source src="${src}" type="video/mp4"></video></div>`);
+  });
+
+  // Inicializa o carrossel
   carrossel.slick({
     dots: true,
     infinite: true,
@@ -87,12 +89,10 @@ function abrirModal(id) {
 $(document).ready(function () {
   montarCatalogo();
 
-  // clique em produto → abre modal
   $(document).on('click', '.produto', function () {
     abrirModal($(this).data('id'));
   });
 
-  // fechar modal
   $('.close').click(() => $('#modal').fadeOut());
   $(window).click(e => {
     if ($(e.target).is('#modal')) {
