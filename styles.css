@@ -176,6 +176,7 @@ footer {
 }
 
 #modal-desc {
+  white-space: pre-line; /* mantém quebras de linha */
   flex-grow: 1;
   overflow-y: auto;
   margin-bottom: 10px;
