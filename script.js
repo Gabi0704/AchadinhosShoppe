@@ -92,6 +92,75 @@ Tampa com parede dupla.
     videos: ['videos/panela/panela.mp4'],
     link: 'https://s.shopee.com.br/2fzo5SXmLV',
   },
+  
+  {
+    titulo: 'Lápis Cores Giz Canetinhas',
+    descricaoCurta: 'Estojo Maleta Pintura Infantil Lápis Cores Giz Canetinhas e Diversos Tamanhos Desenhos Para Colorir.',
+    descricao: ` MALETA DE PINTURA INFANTIL (DE 24 a 68 PEÇAS)
+    ANTES DE COMPRAR, FAVOR CONFERIR O TAMANHO DA MALETA QUE ESTÁ COMPRANDO.
+    NÃO É POSSÍVEL ESCOLHER A CAPA DA MALETA (SERÁ ENVIADO ALEATORIAMENTE CONFORME ESTOQUE).
+    CASO QUEIRA ALGO ESPECIFICO, FAVOR NOS CHAMAR NO PRIVADO.
+    Maleta na Cor Rosa: Pode ser de unicórnio ou boneca
+    Maleta na Cor Azul/Verde: Pode ser de carro ou dinossauro
+    OBS: O número de peças de cada maleta vem especificado na parte de trás da maleta.
+    O KIT 24 PEÇAS CONTEM:
+      8 giz de cera, 12 tinta aquarela, 1 apontador, 1 lápis hb, 1 borracha, 1 pincel e Desenhos para colorir
+    O KIT 48 PEÇAS CONTEM:
+      6 canetinhas, 10 lápis de cor, 20 giz de cera, 8 barras de pintura pastel, 1 apontador, 1 borracha, 2 clips para papel e Desenhos para colorir
+    O KIT 68 PEÇAS CONTEM:
+      12 Canetinhas, 12 barras de pintura á pastel, 12 giz de cera, 12 tintas aquarela, 12 lápis de cor, 1 régua, 1 apontador, 1 lápis hb, 1 borracha, 1 cola, 1 pincel, 2 clips e Desenhos para colorir`,
+    preco: 'R$ 16,90',
+    imagens: ['imagens/caneta/caneta.png','imagens/caneta/caneta1.png','imagens/caneta/caneta2.png','imagens/caneta/caneta3.png'],
+    videos: ['videos/caneta/caneta.mp4'],
+    link: 'https://s.shopee.com.br/AA5qNBfLbd?share_channel_code=1',
+  },
+  
+  {
+    titulo: 'Tabua Magica Descongelar Rápido',
+    descricaoCurta: 'Conjunto de panelas antiaderente com tampa de vidro. Durabilidade e estilo.',
+    descricao: ` Descongelar os peitos de frango, bifes, costeletas de porco, costeletas de cordeiro e muito mais dentro de 30-60 minutos dependendo da espessura.
+    - Degelo menores de alimentos como hambúrgueres, salsichas, camarões e bacon ainda mais rápido!
+    - Descongelar alimentos congelados em poucos minutos
+    - Absolutamente nenhum produto químico ou eletricidade e usada. Ao invés de fornos de micro-ondas que cozinha parcialmente o alimento durante o processo de descongelamento, a bandeja descongela a carne com segurança e rapidez
+    - Sem pré-aquecimento
+    - Não e necessário o uso de agua quente.
+    - Basta colocar na bandeja e ele vai descongelar alimentos congelados ate 9 vezes mais rápido do que a temperatura ambiente.
+    - Produto de alta qualidade
+    - Não há necessidade de saber como descongelar o alimento em questão de minutos por mais tempo
+    - Bandeja de Degelo Rápido permite descongelar sua carne congelada, ou alimentos rapidamente e naturalmente
+    - Você não precisa de micro-ondas para descongelar sua carne congelada, basta colocar sobre o super bandeja de degelo e ver a mágica. Esta super bandeja de degelo e feita de material de alta qualidade com condutor térmico para acelerar o processo de descongelamento de forma rápida.
+    - Bandeja não precisa de eletricidade ou baterias.
+    - Descongelar mercadorias congeladas naturalmente
+Tamanhos : comprimento 36cm largura 21cm`,
+    preco: 'R$ 184,90',
+    imagens: ['imagens/tabua/tabua.png','imagens/tabua/tabua1.png','imagens/tabua/tabua2.png','imagens/tabua/tabua3.png'],
+    videos: ['videos/tabua/tabua.mp4'],
+    link: 'https://s.shopee.com.br/3LFWEfDHgR?share_channel_code=1',
+  },
+  
+  {
+    titulo: 'Panelas antiaderentes que não grudam',
+    descricaoCurta: 'Conjunto de panelas antiaderente com tampa de vidro. Durabilidade e estilo.',
+    descricao: ` Conjunto Trofa – Marpal 9 peças possui várias cores diferentes para deixar sua cozinha mais moderna e prática, por um preço super em conta. Todas as panelas do conjunto contêm 5 camadas de revestimento antiaderente e espessura de 1,2 mm. Os pegadores são de baquelite e antitérmicos. As tampas de vidro com saída a vapor dão total visibilidade a suas receitas e as panelas são de fácil limpeza.
+    VANTAGEM:
+      - Os acessórios incluídos neste conjunto são feitos de Nylon e por isso melhoram a durabilidade do antiaderente.
+    PEÇAS INCLUÍDAS NO CONJUNTO: 02 Panelas,02 Caçarolas,01 Frigideira Funda, 01 Fervedor e 03 Acessórios.
+    DESCRIÇÃO DAS PEÇAS:
+      01 Panela: Capacidade: 2 L, Diâmetro: 18 cm, Altura: 7 cm
+      01 Panela: Capacidade: 1,5 L, Diâmetro: 16 cm, Altura: 7 cm
+      01 Caçarola: Capacidade: 2,7 L, Diâmetro: 20 cm, Altura: 8 cm
+      01 Caçarola: Capacidade: 2 L, Diâmetro: 18 cm, Altura: 8 cm
+      01 Frigideira Funda: Capacidade: 1,6 L, Diâmetro: 20 cm, Altura: 6 cm
+      01 Fervedor: Capacidade: 2 L, Diâmetro: 14 cm, Altura: 12 cm
+      03 Acessórios (Vão 3 dos acessórios abaixo. Podem variar, não tem como escolher):
+        - Colher de Arroz, Espátula, Concha, Pegador de macarrão, Escumadeira
+    GARANTIA: 3 meses contra defeito de fabricação e não cobre má utilização.
+    EMBALAGEM: Os produtos vêm numa Caixa Parda Reciclada. Nós colaboramos com o meio ambiente utilizando caixas recicladas para transporte.`,
+    preco: 'R$ 184,90',
+    imagens: ['imagens/panela/panela.png','imagens/panela/panela1.png','imagens/panela/panela2.png','imagens/panela/panela3.png','imagens/panela/panela4.png','imagens/panelas/panela5.png'],
+    videos: ['videos/panela/panela.mp4'],
+    link: 'https://s.shopee.com.br/2fzo5SXmLV',
+  },
 ];
 
 // Monta os cards de produtos
