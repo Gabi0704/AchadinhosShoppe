@@ -132,34 +132,24 @@ Tampa com parede dupla.
     - Bandeja não precisa de eletricidade ou baterias.
     - Descongelar mercadorias congeladas naturalmente
 Tamanhos : comprimento 36cm largura 21cm`,
-    preco: 'R$ 184,90',
+    preco: 'R$ 33,59',
     imagens: ['imagens/tabua/tabua.png','imagens/tabua/tabua1.png','imagens/tabua/tabua2.png','imagens/tabua/tabua3.png'],
     videos: ['videos/tabua/tabua.mp4'],
     link: 'https://s.shopee.com.br/3LFWEfDHgR?share_channel_code=1',
   },
   
   {
-    titulo: 'Panelas antiaderentes que não grudam',
-    descricaoCurta: 'Conjunto de panelas antiaderente com tampa de vidro. Durabilidade e estilo.',
-    descricao: ` Conjunto Trofa – Marpal 9 peças possui várias cores diferentes para deixar sua cozinha mais moderna e prática, por um preço super em conta. Todas as panelas do conjunto contêm 5 camadas de revestimento antiaderente e espessura de 1,2 mm. Os pegadores são de baquelite e antitérmicos. As tampas de vidro com saída a vapor dão total visibilidade a suas receitas e as panelas são de fácil limpeza.
-    VANTAGEM:
-      - Os acessórios incluídos neste conjunto são feitos de Nylon e por isso melhoram a durabilidade do antiaderente.
-    PEÇAS INCLUÍDAS NO CONJUNTO: 02 Panelas,02 Caçarolas,01 Frigideira Funda, 01 Fervedor e 03 Acessórios.
-    DESCRIÇÃO DAS PEÇAS:
-      01 Panela: Capacidade: 2 L, Diâmetro: 18 cm, Altura: 7 cm
-      01 Panela: Capacidade: 1,5 L, Diâmetro: 16 cm, Altura: 7 cm
-      01 Caçarola: Capacidade: 2,7 L, Diâmetro: 20 cm, Altura: 8 cm
-      01 Caçarola: Capacidade: 2 L, Diâmetro: 18 cm, Altura: 8 cm
-      01 Frigideira Funda: Capacidade: 1,6 L, Diâmetro: 20 cm, Altura: 6 cm
-      01 Fervedor: Capacidade: 2 L, Diâmetro: 14 cm, Altura: 12 cm
-      03 Acessórios (Vão 3 dos acessórios abaixo. Podem variar, não tem como escolher):
-        - Colher de Arroz, Espátula, Concha, Pegador de macarrão, Escumadeira
-    GARANTIA: 3 meses contra defeito de fabricação e não cobre má utilização.
-    EMBALAGEM: Os produtos vêm numa Caixa Parda Reciclada. Nós colaboramos com o meio ambiente utilizando caixas recicladas para transporte.`,
-    preco: 'R$ 184,90',
-    imagens: ['imagens/panela/panela.png','imagens/panela/panela1.png','imagens/panela/panela2.png','imagens/panela/panela3.png','imagens/panela/panela4.png','imagens/panelas/panela5.png'],
-    videos: ['videos/panela/panela.mp4'],
-    link: 'https://s.shopee.com.br/2fzo5SXmLV',
+    titulo: 'Labubu Os Monstros Emocionante',
+    descricaoCurta: 'Figura Vinil Face Série Chaveiro Crianças Presente De Brinquedos',
+    descricao: `  Nota:
+     É FEITO DA China. Não original.
+     Esta é a logística internacional. não pode garantir 100% que a caixa não esteja danificada.
+     Mas vamos tentar a melhor maneira. Se você precisar de 100% da caixa está intacta. Por favor, faça seu pedido com cuidado.
+     (Todos Os Funko POP Dobraremos a Caixa para fazer o pacote. )`,
+    preco: 'R$18,98 - R$46,00',
+    imagens: ['imagens/labubu/labubu.png','imagens/labubu/labubu1.png','imagens/labubu/labubu2.png','imagens/labubu/labubu3.png','imagens/labubu/labubu4.png','imagens/labubu/labubu5.png','imagens/labubu/labubu6.png'],
+    videos: ['videos/labubu/labubu.mp4'],
+    link: 'https://s.shopee.com.br/8KeCBvf1wC?share_channel_code=1',
   },
 ];
 
