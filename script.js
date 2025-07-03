@@ -187,6 +187,45 @@ Tamanhos : comprimento 36cm largura 21cm`,
     videos: [],
     link: 'https://s.shopee.com.br/7ASHUpAini?share_channel_code=1',
   },
+   {
+    titulo: 'Kit Criativo 1 Paleta Pintura + 6 Pincéis Artístico',
+    descricaoCurta: 'Kit Criativo 1 Paleta Pintura + 6 Pincéis Artístico Ponta Arredondada/ Reta -Paleta Godê 23X17 Criativo',
+    descricao: ` Liberte sua criatividade com o nosso Kit Completo de Pintura!
+    Você já sonhou em criar obras de arte incríveis, mas não sabe por onde começar? Com o nosso kit completo, você terá tudo o que precisa para dar vida às suas ideias!
+    O que você vai encontrar neste kit:
+    -1 Paleta Godê: 23X17 Com suas 10 Cavidades, esta Paleta é ideal para Deixar sua Arte mais Completa, Criativa e Colorida
+    -6 pincéis de alta qualidade: Pontas arredondadas, retas e godê para você criar traços precisos e delicados.
+    Qualidade profissional: Materiais duráveis e resistentes para garantir anos de uso.
+    Ideal para todos os níveis: Se você é um iniciante ou um artista experiente, este kit é perfeito para você.
+    **Por que escolher o nosso kit?**
+    ° Praticidade: Tudo o que você precisa em um único kit, pronto para usar.
+    ° Versatilidade: Perfeito para diversas técnicas de pintura, como aquarela, óleo e acrílico.
+    ° Desenvolvimento da criatividade: Estimula a expressão artística e o bem-estar.
+    ° Presente ideal: Surpreenda um amigo ou familiar com o dom da arte.`,
+    preco: 'R$29,50',
+    imagens: ['imagens/Kit_Criativo/kit.png','imagens/Kit_Criativo/kit1.png','imagens/Kit_Criativo/kit2.png','imagens/Kit_Criativo/kit3.png'],
+    videos: [],
+    link: 'https://s.shopee.com.br/2LN1vrL3Ru?share_channel_code=1',
+  },
+
+  
+   {
+    titulo: 'Cobertor De Tubarão Adulto',
+    descricaoCurta: 'Cobertor De Tubarão Adulto cobertor de tubarão cobertor de tubarão para adulto cobertor de tubarão coberto de tubarão cobertor',
+    descricao: ` Cobertor de tubarão Para Adulto é feito de materiais de flanela que garantem o máximo conforto e aconchego: Nosso cobertor de tubarão para adulto é feito de materiais de flanela que garantem o máximo conforto e calor durante as noites de pimenta
+    Fácil de embalar e portátil: esta bolsa de dormir de tubarão é leve e pode ser facilmente dobrada em um tamanho compacto, tornando-o conveniente levar com você em viagens de acampamento ou dormir
+    Fique quente e respirável: O moletom flanela deste Manta Wearable para Adultos Kids fornece calor ideal enquanto permite a circulação de ar para manter você se sentir aconchegante sem superaquecimento
+    Máquina de lavar e durável: Nossa manta de tubarão foi projetada para suportar lavagem frequente e durável na máquina: Nossa manta de tubarão é projetada para suportar a lavagem frequente e manter sua maciez 
+    Manta de tubarão é confortável em qualquer lugar: Este manta de tubarão é para lounging em casa, aconchegante durante as noites de filme ou usá-lo como traje para festas temáticas
+    Especificação de especificação:
+    Cor da Cor: Cinza Azul
+    Material da flanela: flanela
+    Tamanho: Aprox: SML XL XXL XXXL`,
+    preco: 'R$145,26 - R$207,61',
+    imagens: ['imagens/cobertor/cobertor.png','imagens/cobertor/cobertor1.png','imagens/cobertor/cobertor2.png','imagens/cobertor/cobertor3.png','imagens/cobertor/cobertor4.png','imagens/cobertor/cobertor5.png','imagens/cobertor/cobertor6.png','imagens/cobertor/cobertor7.png','imagens/cobertor/cobertor8.png'],
+    videos: ['videos/cobertor/cobertor.mp4'],
+    link: 'https://s.shopee.com.br/AKPJJopU4u',
+  },
 ];
 
 // Monta os cards de produtos
