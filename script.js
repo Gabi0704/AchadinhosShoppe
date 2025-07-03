@@ -171,6 +171,22 @@ Tamanhos : comprimento 36cm largura 21cm`,
     videos: ['videos//Caneca_Mixer/caneca.mp4'],
     link: 'https://s.shopee.com.br/2fzs8Ul4Eu?share_channel_code=1',
   },
+   {
+    titulo: 'Trem Magnético De Madeira',
+    descricaoCurta: 'Trem Magnético De Madeira , Quebra-Cabeça Digital E Conjunto De Montagem De Aprendizagem , Presente De Natal',
+    descricao: ` A cor do número é uma cor aleatória!!!
+    Iluminação do quebra-cabeça Brinquedos de trem Digital magnético para crianças Bloco magnético montagem bebê 1-3 a 6 anos meninos e meninas
+    Características:
+    1. Trem Digital magnético de madeira de faia trem Digital magnético de madeira de faia pequeno, iluminação Digital, integração de ensino e jogo
+    2. Reconhecimento de números de 10 números, 10 séries de cores, 10 séries de cores, 10 programações de cores, exercício de número e reconhecimento de cores do bebê
+    3. Emenda magnética, fácil de desmontar, simples e rápido
+    4. Números combinando com brinquedos para fazer o aprendizado menos chato
+    5. Não se preocupe com quedas acidentais. O carro é feito de Abs de alta resistência, que é resistente a quedas e colisões`,
+    preco: 'R$26,85 - R$36,62',
+    imagens: ['imagens/trem/trem.png','imagens/trem/trem1.png','imagens/trem/trem2.png','imagens/trem/trem3.png','imagens/trem/trem4.png','imagens/trem/trem5.png','imagens/trem/trem6.png','imagens/trem/trem7.png','imagens/trem/trem8.png'],
+    videos: [],
+    link: 'https://s.shopee.com.br/7ASHUpAini?share_channel_code=1',
+  },
 ];
 
 // Monta os cards de produtos
