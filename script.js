@@ -264,7 +264,12 @@ function abrirModal(id) {
   // Limpa o conteúdo do carrossel antes de adicionar
   carrossel.html('');
   // Adiciona vídeos ao carrossel
-  p.videos.forEach(src => {
+ 
+  // Adiciona imagens ao carrossel
+  p.imagens.forEach(src => {
+    carrossel.append(`<div><img src="${src}" alt="${p.titulo}" loading="lazy" /></div>`);
+  });
+ p.videos.forEach(src => {
     carrossel.append(`
       <div>
         <video controls preload="metadata" style="max-width: 100%; height: auto;">
@@ -274,11 +279,6 @@ function abrirModal(id) {
       </div>
     `);
   });
-  // Adiciona imagens ao carrossel
-  p.imagens.forEach(src => {
-    carrossel.append(`<div><img src="${src}" alt="${p.titulo}" loading="lazy" /></div>`);
-  });
-
 
 
   // Inicializa o slick (plugin de carrossel)
