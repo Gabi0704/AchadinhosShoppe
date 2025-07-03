@@ -151,6 +151,26 @@ Tamanhos : comprimento 36cm largura 21cm`,
     videos: ['videos/labubu/labubu.mp4'],
     link: 'https://s.shopee.com.br/8KeCBvf1wC?share_channel_code=1',
   },
+   {
+    titulo: 'Caneca Mixer Inox Automática Elétrica',
+    descricaoCurta: 'Caneca Mixer Inox Automática Elétrica Misturador Shake Café Leite Cremoso Mug e Cabo Alta Velocidade',
+    descricao: `  ENVIO IMEDIATO!
+    ESTOQUE DISPONÍVEL E A PRONTA ENTREGA!
+    CANECA MIXER AUTOMÁTICA EM AÇO INOX LINHA LUXO
+    Caneca usada no seriado YOU, campeã de vendas!
+    * ÓTIMO PRESENTE
+    * FACILIDADE E PRATICIDADE
+    * MIXER PARA BEBIDAS
+    * DESIGN ELEGANTE
+    * INOX E ACRÍLICO RESISTENTE
+    * ÓTIMO CUSTO BENEFÍCIO
+    * ENTREGA RÁPIDA!
+    ESSE É UM PRODUTO ÓTIMO PARA SEU DIA-A-DIA, FACILIDADE E PRATICIDADE EM SEU USO. ALÉM DE SER ESTETICAMENTE BONITO, TAMBÉM É UM ÓTIMO PRESENTE!`,
+    preco: 'R$45,90',
+    imagens: ['imagens/Caneca_Mixer/caneca.png','imagens/Caneca_Mixer/caneca1.png','imagens/Caneca_Mixer/caneca2.png','imagens/Caneca_Mixer/caneca3.png','imagens/Caneca_Mixer/caneca4.png','imagens/Caneca_Mixer/caneca5.png','imagens/Caneca_Mixer/caneca6.png','imagens/Caneca_Mixer/caneca7.png','imagens/Caneca_Mixer/caneca8.png'],
+    videos: ['videos//Caneca_Mixer/caneca.mp4'],
+    link: 'https://s.shopee.com.br/2fzs8Ul4Eu?share_channel_code=1',
+  },
 ];
 
 // Monta os cards de produtos
