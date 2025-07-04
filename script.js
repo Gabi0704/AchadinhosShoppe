@@ -226,6 +226,111 @@ Tamanhos : comprimento 36cm largura 21cm`,
     videos: ['videos/cobertor/cobertor.mp4'],
     link: 'https://s.shopee.com.br/AKPJJopU4u',
   },
+   {
+    titulo: 'Casaco Teddy Infantil',
+    descricaoCurta: 'Casaco Teddy Infantil Ursinho Blusa de Frio Inverno',
+    descricao: ` Casaco Infantil de Pelúcia com tecido de Sherpa de qualidade e quentinho para os dias de outono/inverno. Essa é uma peça linda e confortável para as crianças, serve tanto para as meninas quanto para os meninos e ideal para todas as ocasiões.
+     O casaco possui um bolso e um capuz com orelhinhas. Está disponível em 3 tamanhos diferentes e também 3 cores básicas, que podem ser usadas em todo lugar. Garanta o seu e aproveite! Estilo, fofura e conforto em uma só peça 🧥
+     - CORES: 
+     Branco - Preto - Marrom
+     - TAMANHOS: 
+     1 á 2 anos (P)
+     2 á 4 anos (M)
+     6 á 8 anos (G)
+    GUIA DE TAMANHO, 1 á 2 anos mesma medida /2 á 4 anos mesma medida/ 6 á 8 anos mesma medida. 
+    ENVIO IMEDIATO! ✈️`,
+    preco: 'R$50,33 - R$69,90',
+    imagens: ['imagens/casaco/casaco.png','imagens/casaco/casaco1.png','imagens/cobertor/casaco2.png','imagens/casaco/casaco3.png','imagens/casaco/casaco4.png','imagens/casaco/casaco5.png'],
+    videos: ['videos/casaco/casaco.mp4'],
+    link: 'https://s.shopee.com.br/6AZkptmQ9G',
+  },
+   {
+    titulo: 'KIt 1/2 Livros Bob Goods para Colorir',
+    descricaoCurta: 'KIt 1/2 Livros Bob Goods para Colorir Capa Dura 48 Folhas Rosa e Azul',
+    descricao: ` A PRONTA ENTREGA!
+    CAPA DURA BRILHANTE, 50 FOLHAS, FOLHA DE ACETATO PARA NÃO MANCHAR AS FOLHAS!
+    Este incrível livro de capa dura é a escolha perfeita para quem busca qualidade, estilo e muita fofura em um só produto. A primeira coisa que chama atenção é a capa: feita em material resistente, ela traz um efeito holográfico especial que brilha e muda de aparência conforme a luz incide, deixando o visual ainda mais mágico e encantador. Com uma combinação suave de cores em azul e rosa, o design é alegre, delicado e moderno, agradando tanto crianças quanto adultos que amam artigos de papelaria diferenciados.
+    No centro da capa, um adorável personagem ilustrado em estilo kawaii cria uma atmosfera divertida e acolhedora, perfeita para despertar a criatividade e tornar o uso do livro ainda mais especial. As laterais são decoradas com pequenos rostinhos de bichinhos, dando um toque extra de charme e personalidade. Tudo isso com a segurança e proteção de uma capa dura que garante maior durabilidade, ideal para quem deseja carregar o livro na mochila, na bolsa ou deixar em destaque na escrivaninha.
+    O interior conta com 48 páginas de alta qualidade, perfeitas para desenhar, fazer anotações, colorir, criar listas, escrever pensamentos ou organizar o dia a dia. As folhas foram pensadas para suportar diferentes tipos de canetas, lápis de cor e marcadores, sem rasgar facilmente ou permitir que a tinta vaze para o verso. Com seu tamanho prático, ele é ótimo para ser usado em casa, na escola, no trabalho ou até em viagens.
+    Seja para presentear alguém especial ou para se mimar com um item exclusivo e cheio de estilo, este livro é uma escolha certeira. Ele combina beleza, funcionalidade e muita personalidade em cada detalhe. Um verdadeiro convite para transformar o dia a dia com mais cor, brilho e inspiração!`,
+    preco: 'R$17,98',
+    imagens: ['imagens/livroBobGoods/livroBobGoods.png','imagens/livroBobGoods/livroBobGoods1.png','imagens/livroBobGoods/livroBobGoods2.png','imagens/livroBobGoods/livroBobGoods3.png','imagens/livroBobGoods/livroBobGoods4.png','imagens/livroBobGoods/livroBobGoods5.png'],
+    videos: ['videos/livroBobGoods/livroBobGoods.mp4'],
+    link: 'https://s.shopee.com.br/8fH5p9VD5a',
+  },
+   {
+    titulo: 'Brinquedo Pelúcia Capivara Tartaruga Fofinha',
+    descricaoCurta: 'Premium 30 Cm Brinquedo Pelúcia Capivara Tartaruga Fofinha Kawaii Presente Fofinho Para Aniversários',
+    descricao: ` O envio é feito por esse produto e pronto para ser feito imediatamente;
+    As imagens exibidas são uma verdadeira representação do nosso produto; - As imagens apresentadas são uma verdadeira representação do nosso produto;
+    Envio no mesmo dia dos pedidos - Para pedidos feitos antes das 12:00h, garantimos o envio no mesmo dia;
+    Oferecemos garantia sólida de 30 dias a partir da data de recebimento;
+    - Para aumentar sua experiência garantimos que todos os produtos sejam cuidadosamente enviados em embalagens individuais, garantindo segurança e integridade durante o transporte.
+    Processamento EFICIENTE**
+    - Todos os produtos estão à pronta entrega, e seu pedido será enviado em até 48 horas!`,
+    preco: 'R$37,90 - R$56,90',
+    imagens: ['imagens/capivara/capivara.png','imagens/capivara/capivara1.png','imagens/capivara/capivara2.png','imagens/capivara/capivara3.png','imagens/capivara/capivara4.png'],
+    videos: ['videos/capivara/capivara.mp4'],
+    link: 'https://s.shopee.com.br/8fH6oNtKDJ',
+  },
+
+   {
+    titulo: 'Kit 5 Potes +1 Jarra de Plástico + 5 Copos ',
+    descricaoCurta: 'Kit 5 Potes +1 Jarra de Plástico + 5 Copos Alta Qualidade Vasilhas de Plástico',
+    descricao: ` É ideal para armazenar alimentos no refrigerador;.
+    Seu formato é perfeito para empilhar e otimizar o espaço interno no armário ou geladeira.
+    Sem contar nas diversas cores e tamanhos que vão deixar sua casa ainda mais linda!
+    Os kits de potes vão deixar sua cozinha muito mais moderna, funcional e completa. Ótimos para armazenar alimentos no refrigerador, transportá-los e diversas outras funções essenciais no seu dia a dia. 
+    Características: Material: Plástico
+    Pode ir ao Micro-ondas.
+    Pode ir ao Freeezer.
+    KIT COLORIDO
+    VOCÊ ESTA COMPRANDO
+    5 Potes Bowl de 1Litro Cada
+    1 jarra 1.800ml
+    5 copo plástico
+    Perfeito para o dia a dia, o kit é ideal para manter os alimentos frescos, congelados ou quentes. Os nossos produtos são de excelente qualidade e traz mais praticidade para sua cozinha, já que também podem ser levados ao freezer e micro-ondas.
+    As nossas imagens são reais e não ilustrativas, mas vale lembrar que as cores podem variar de acordo com o aparelho utilizado.
+    Quanto às embalagens, nós preparamos tudo para que você receba seu pedido em perfeito estado. Caso tenha algum problema, é só entrar em contato conosco, estamos sempre à disposição para melhor atendê-los.`,
+    preco: 'R$34,47',
+    imagens: ['imagens/KitPotes/KitPotes.png','imagens/KitPotes/KitPotes1.png','imagens/KitPotes/KitPotes2.png','imagens/KitPotes/KitPotes3.png','imagens/KitPotes/KitPotes4.png','imagens/KitPotes/KitPotes5.png','imagens/KitPotes/KitPotes6.png','imagens/KitPotes/KitPotes7.png'],
+    videos: [],
+    link: 'https://s.shopee.com.br/6fW2R0XCGL',
+  },
+
+   {
+    titulo: 'Dinossauro Ponto Spiderman',
+    descricaoCurta: 'Dinossauro Ponto Spiderman Onesies Crianças Pijama Macacão Animal Meninos Meninas Cosplay Traje Do Bebê',
+    descricao: `-Material: Flanela
+    -Tamanho Do Solar: 100,110,120,130,140
+    -Tamanho Do Calçado de Pata Lisa:25-34
+    -Tênis De Pata Trava Cor:1-15 Cores, (Por favor nos informe qual a Cor Número que você precisa)
+    - Tema: Coruja
+    -Gênero: Unissex
+    -Este Dormir é muito bonito e encantado!
+    -100% Marca Novo e Alta Qualidade!
+    -Tipo De Tamanhos Solar:     
+    Tamanho Infantil:
+    4t/100: Encaixe 88-105cm (Altura)
+    6t/110: Encaixe 105-115cm (Altura)
+    8t/120: Encaixe 116-125cm (Altura)
+    10t/130: Encaixe 125-135cm (Altura)
+    12t/140: Encaixe 135-145cm (Altura)
+    Tamanho Adulto:
+    P: 148-158cm (Altura)
+    M: 158-168cm (Altura)
+    G: 168-178cm (Altura)
+    Xl: 178-188cm (Altura)
+    Acompanha embalagem:
+    1 * Roupa Sonolinha
+    Nota:
+    1.Há 2-3% de diferença de acordo com a medição manual. 1 polegada = 2,54 cm.Por favor, gentilmente refere-se à sua altura real de crianças e a tabela de tamanhos antes de comprar/bidding.
+    2.Observe que leve diferença de cor deve ser aceitável devido a luz e tela.`,
+    preco: 'R$64,80 - R$67,80',
+    imagens: ['imagens/pijamamacacao/pijamamacacao.png','imagens/pijamamacacao/pijamamacacao1.png','imagens/pijamamacacao/pijamamacacao2.png','imagens/pijamamacacao/pijamamacacao3.png','imagens/pijamamacacao/pijamamacacao4.png','imagens/pijamamacacao/pijamamacacao5.png','imagens/pijamamacacao/pijamamacacao6.png','imagens/pijamamacacao/pijamamacacao7.png','imagens/pijamamacacao/pijamamacacao8.png'],
+    videos: ['videos/pijamamacacao/pijamamacacao.mp4'],
+    link: 'https://s.shopee.com.br/5L0erA9nAR',
+  },
 ];
 
 // Monta os cards de produtos
